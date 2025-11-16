@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    gap: 11vh;
+    height: 12vh;
+    /* background-color: rgb(155,0, 0); */
+    background-color: black;
+}
+.logo{
+    height: 20vh;
+    position: relative;
+    bottom:4.5vh;
+}
+.navbar a{
+    color: orange;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    height: fit-content;
+    top: 4vh;
+    left: 12%;
+    position: relative;
+    display: flex;
+    font-size: 23px;
+    font-weight: bold;
+}
+.order{
+    left: 25%;
+    position: relative;
+    width: 10%;
+    border-radius: 22vh;
+    height: 47%;
+    top: 3vh;
+    font-weight: bold;
+}
+
+.order:active{
+    color: orange;
+}
+
+.order{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60%;
+    border-radius: 22vh;
+    cursor: pointer;
+}
+
+
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.sc-eeDRCY{
+    display: block;
+    all: unset;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60%;
+    border-radius: 50px;
+    height: 160px;
+}
+
+#foodtype button{
+    all: unset;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60%;
+    border-radius: 50px;
+    height: 160px;
+}
+
+.sc-aXZVg{
+    display: block;
+    all: unset;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60%;
+    border-radius: 50px;
+    height: 160px;
+}
+
+.meals{
+    position: relative;
+    bottom: 50vh;
+    left: 35vw;
+
+}
+
+.favorite{
+    position: relative;
+    left: 5vw;
+}
+
+.ordernow{
+    position: relative;
+    left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
