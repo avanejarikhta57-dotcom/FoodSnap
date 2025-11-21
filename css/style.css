@@ -11,9 +11,10 @@
     background-color: black;
 }
 .logo{
-    height: 20vh;
-    position: relative;
-    bottom:4.5vh;
+    height: 10vh;
+    width: auto;
+    /* position: relative; */
+    /* bottom:4.5vh; */
 }
 .navbar a{
     color: orange;
