@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Chai Adda</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div class="signup-container">
+        <h2>Create Account</h2>
+
+        <form id="signupForm">
+            <label>Username</label>
+            <input type="text" id="newUsername" required>
+
+            <label>Password</label>
+            <input type="password" id="newPassword" required>
+
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p id="message"></p>
+
+        <p class="login-link">
+            Already have an account?
+            <a href="acc.html">Login</a>
+        </p>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
